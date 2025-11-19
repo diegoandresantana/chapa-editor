@@ -18,7 +18,16 @@
     "namePlaceholder": "Nome da peça",
     "widthPlaceholder": "Largura em mm",
     "heightPlaceholder": "Altura em mm",
-    "quantityPlaceholder": "Quantidade"
+    "quantityPlaceholder": "Quantidade",
+    "tooltips": {
+      "name": "Digite um nome identificador para a peça",
+      "width": "Largura da peça em milímetros (mm)",
+      "height": "Altura da peça em milímetros (mm)",
+      "quantity": "Número de peças idênticas a serem criadas",
+      "sheetName": "Nome identificador para a chapa de material",
+      "sheetWidth": "Largura total da chapa em milímetros (mm)",
+      "sheetHeight": "Altura total da chapa em milímetros (mm)"
+    }
   },
   "upload": {
     "title": "Importar Peças CSV",
@@ -27,7 +36,8 @@
     "noFile": "Nenhum arquivo selecionado",
     "success": "{{count}} peças importadas com sucesso!",
     "error": "Erro ao processar arquivo CSV",
-    "format": "Formato esperado: nome,largura,altura,quantidade"
+    "format": "Formato esperado: nome,largura,altura,quantidade",
+    "tooltip": "Selecione um arquivo CSV com peças no formato: nome,largura,altura,quantidade (uma peça por linha)"
   },
   "editor": {
     "title": "Área de Edição",

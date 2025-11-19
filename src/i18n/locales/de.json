@@ -18,7 +18,16 @@
     "namePlaceholder": "Name des Teils",
     "widthPlaceholder": "Breite in mm",
     "heightPlaceholder": "Höhe in mm",
-    "quantityPlaceholder": "Menge"
+    "quantityPlaceholder": "Menge",
+    "tooltips": {
+      "name": "Geben Sie einen Bezeichner für das Teil ein",
+      "width": "Breite des Teils in Millimetern (mm)",
+      "height": "Höhe des Teils in Millimetern (mm)",
+      "quantity": "Anzahl identischer Teile zu erstellen",
+      "sheetName": "Bezeichner für das Materialblech",
+      "sheetWidth": "Gesamtbreite des Blechs in Millimetern (mm)",
+      "sheetHeight": "Gesamthöhe des Blechs in Millimetern (mm)"
+    }
   },
   "upload": {
     "title": "CSV-Teile Importieren",
@@ -27,7 +36,8 @@
     "noFile": "Keine Datei ausgewählt",
     "success": "{{count}} Teile erfolgreich importiert!",
     "error": "Fehler beim Verarbeiten der CSV-Datei",
-    "format": "Erwartetes Format: name,breite,höhe,menge"
+    "format": "Erwartetes Format: name,breite,höhe,menge",
+    "tooltip": "Wählen Sie eine CSV-Datei mit Teilen im Format: name,breite,höhe,menge (ein Teil pro Zeile)"
   },
   "editor": {
     "title": "Bearbeitungsbereich",

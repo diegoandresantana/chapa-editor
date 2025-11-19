@@ -5,7 +5,8 @@ import {
     Button,
     Typography,
     Box,
-    Stack
+    Stack,
+    Tooltip
 } from '@mui/material';
 import { Add as AddIcon } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
@@ -40,54 +41,62 @@ const PecaForm: React.FC<Props> = ({ onAddPeca }) => {
             </Typography>
             <Box component="form" onSubmit={handleSubmit} sx={{ mt: 1.5 }}>
                 <Stack spacing={1.5}>
-                    <TextField
-                        fullWidth
-                        label={t('form.name')}
-                        placeholder={t('form.namePlaceholder')}
-                        value={nome}
-                        onChange={e => setNome(e.target.value)}
-                        required
-                        variant="outlined"
-                        size="small"
-                    />
+                    <Tooltip title={t('form.tooltips.name')} arrow placement="top">
+                        <TextField
+                            fullWidth
+                            label={t('form.name')}
+                            placeholder={t('form.namePlaceholder')}
+                            value={nome}
+                            onChange={e => setNome(e.target.value)}
+                            required
+                            variant="outlined"
+                            size="small"
+                        />
+                    </Tooltip>
 
                     <Stack direction="row" spacing={1.5}>
-                        <TextField
-                            type="number"
-                            label={t('form.width')}
-                            placeholder={t('form.widthPlaceholder')}
-                            value={largura || ''}
-                            onChange={e => setLargura(+e.target.value)}
-                            required
-                            variant="outlined"
-                            size="small"
-                            slotProps={{ htmlInput: { min: 1 } }}
-                            sx={{ flex: 1 }}
-                        />
-                        <TextField
-                            type="number"
-                            label={t('form.height')}
-                            placeholder={t('form.heightPlaceholder')}
-                            value={altura || ''}
-                            onChange={e => setAltura(+e.target.value)}
-                            required
-                            variant="outlined"
-                            size="small"
-                            slotProps={{ htmlInput: { min: 1 } }}
-                            sx={{ flex: 1 }}
-                        />
-                        <TextField
-                            type="number"
-                            label={t('form.quantity')}
-                            placeholder={t('form.quantityPlaceholder')}
-                            value={quantidade}
-                            onChange={e => setQuantidade(+e.target.value)}
-                            required
-                            variant="outlined"
-                            size="small"
-                            slotProps={{ htmlInput: { min: 1 } }}
-                            sx={{ flex: 1 }}
-                        />
+                        <Tooltip title={t('form.tooltips.width')} arrow placement="top">
+                            <TextField
+                                type="number"
+                                label={t('form.width')}
+                                placeholder={t('form.widthPlaceholder')}
+                                value={largura || ''}
+                                onChange={e => setLargura(+e.target.value)}
+                                required
+                                variant="outlined"
+                                size="small"
+                                slotProps={{ htmlInput: { min: 1 } }}
+                                sx={{ flex: 1 }}
+                            />
+                        </Tooltip>
+                        <Tooltip title={t('form.tooltips.height')} arrow placement="top">
+                            <TextField
+                                type="number"
+                                label={t('form.height')}
+                                placeholder={t('form.heightPlaceholder')}
+                                value={altura || ''}
+                                onChange={e => setAltura(+e.target.value)}
+                                required
+                                variant="outlined"
+                                size="small"
+                                slotProps={{ htmlInput: { min: 1 } }}
+                                sx={{ flex: 1 }}
+                            />
+                        </Tooltip>
+                        <Tooltip title={t('form.tooltips.quantity')} arrow placement="top">
+                            <TextField
+                                type="number"
+                                label={t('form.quantity')}
+                                placeholder={t('form.quantityPlaceholder')}
+                                value={quantidade}
+                                onChange={e => setQuantidade(+e.target.value)}
+                                required
+                                variant="outlined"
+                                size="small"
+                                slotProps={{ htmlInput: { min: 1 } }}
+                                sx={{ flex: 1 }}
+                            />
+                        </Tooltip>
                     </Stack>
 
                     <Button

@@ -4,7 +4,8 @@ import {
   Button, 
   Typography, 
   Box, 
-  Alert 
+  Alert,
+  Tooltip 
 } from '@mui/material';
 import { CloudUpload as UploadIcon } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
@@ -70,15 +71,17 @@ const UploadPecasCSV: React.FC<UploadPecasCSVProps> = ({ onImportPecas }) => {
           style={{ display: 'none' }}
         />
         <label htmlFor="upload-csv">
-          <Button
-            variant="contained"
-            component="span"
-            startIcon={<UploadIcon />}
-            fullWidth
-            size="medium"
-          >
-            {t('upload.selectFile')}
-          </Button>
+          <Tooltip title={t('upload.tooltip')} arrow placement="top">
+            <Button
+              variant="contained"
+              component="span"
+              startIcon={<UploadIcon />}
+              fullWidth
+              size="medium"
+            >
+              {t('upload.selectFile')}
+            </Button>
+          </Tooltip>
         </label>
       </Box>
 
