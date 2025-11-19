@@ -1,0 +1,52 @@
+{
+  "app": {
+    "title": "Éditeur de Mise en Page 2D",
+    "language": "Langue"
+  },
+  "sidebar": {
+    "title": "Pièces Disponibles",
+    "noPieces": "Aucune pièce disponible",
+    "quantity": "Qté: {{count}}"
+  },
+  "form": {
+    "addPiece": "Ajouter Pièce",
+    "name": "Nom",
+    "width": "Largeur",
+    "height": "Hauteur",
+    "quantity": "Quantité",
+    "add": "Ajouter",
+    "namePlaceholder": "Nom de la pièce",
+    "widthPlaceholder": "Largeur en mm",
+    "heightPlaceholder": "Hauteur en mm",
+    "quantityPlaceholder": "Quantité"
+  },
+  "upload": {
+    "title": "Importer Pièces CSV",
+    "selectFile": "Sélectionner Fichier CSV",
+    "import": "Importer",
+    "noFile": "Aucun fichier sélectionné",
+    "success": "{{count}} pièces importées avec succès!",
+    "error": "Erreur lors du traitement du fichier CSV",
+    "format": "Format attendu: nom,largeur,hauteur,quantité"
+  },
+  "editor": {
+    "title": "Zone d'Édition",
+    "dropHere": "Glissez les pièces ici pour les allouer",
+    "collision": "Collision détectée!",
+    "outOfBounds": "Hors des limites de la tôle!",
+    "allocated": "Pièces Allouées: {{count}}",
+    "remove": "Supprimer"
+  },
+  "validation": {
+    "required": "Champ obligatoire",
+    "positiveNumber": "Doit être un nombre positif",
+    "invalidFile": "Fichier invalide"
+  },
+  "languages": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}

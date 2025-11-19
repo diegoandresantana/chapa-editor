@@ -1,0 +1,52 @@
+{
+  "app": {
+    "title": "2D-Layout-Editor",
+    "language": "Sprache"
+  },
+  "sidebar": {
+    "title": "Verfügbare Teile",
+    "noPieces": "Keine Teile verfügbar",
+    "quantity": "Anz: {{count}}"
+  },
+  "form": {
+    "addPiece": "Teil Hinzufügen",
+    "name": "Name",
+    "width": "Breite",
+    "height": "Höhe",
+    "quantity": "Menge",
+    "add": "Hinzufügen",
+    "namePlaceholder": "Name des Teils",
+    "widthPlaceholder": "Breite in mm",
+    "heightPlaceholder": "Höhe in mm",
+    "quantityPlaceholder": "Menge"
+  },
+  "upload": {
+    "title": "CSV-Teile Importieren",
+    "selectFile": "CSV-Datei Auswählen",
+    "import": "Importieren",
+    "noFile": "Keine Datei ausgewählt",
+    "success": "{{count}} Teile erfolgreich importiert!",
+    "error": "Fehler beim Verarbeiten der CSV-Datei",
+    "format": "Erwartetes Format: name,breite,höhe,menge"
+  },
+  "editor": {
+    "title": "Bearbeitungsbereich",
+    "dropHere": "Ziehen Sie Teile hierher zum Zuweisen",
+    "collision": "Kollision erkannt!",
+    "outOfBounds": "Außerhalb der Blechgrenzen!",
+    "allocated": "Zugewiesene Teile: {{count}}",
+    "remove": "Entfernen"
+  },
+  "validation": {
+    "required": "Pflichtfeld",
+    "positiveNumber": "Muss eine positive Zahl sein",
+    "invalidFile": "Ungültige Datei"
+  },
+  "languages": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}

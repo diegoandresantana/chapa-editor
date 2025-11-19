@@ -1,0 +1,52 @@
+{
+  "app": {
+    "title": "Editor de Layout 2D",
+    "language": "Idioma"
+  },
+  "sidebar": {
+    "title": "Peças Disponíveis",
+    "noPieces": "Nenhuma peça disponível",
+    "quantity": "Qtd: {{count}}"
+  },
+  "form": {
+    "addPiece": "Adicionar Peça",
+    "name": "Nome",
+    "width": "Largura",
+    "height": "Altura",
+    "quantity": "Quantidade",
+    "add": "Adicionar",
+    "namePlaceholder": "Nome da peça",
+    "widthPlaceholder": "Largura em mm",
+    "heightPlaceholder": "Altura em mm",
+    "quantityPlaceholder": "Quantidade"
+  },
+  "upload": {
+    "title": "Importar Peças CSV",
+    "selectFile": "Selecionar Arquivo CSV",
+    "import": "Importar",
+    "noFile": "Nenhum arquivo selecionado",
+    "success": "{{count}} peças importadas com sucesso!",
+    "error": "Erro ao processar arquivo CSV",
+    "format": "Formato esperado: nome,largura,altura,quantidade"
+  },
+  "editor": {
+    "title": "Área de Edição",
+    "dropHere": "Arraste as peças aqui para alocar",
+    "collision": "Colisão detectada!",
+    "outOfBounds": "Fora dos limites da chapa!",
+    "allocated": "Peças Alocadas: {{count}}",
+    "remove": "Remover"
+  },
+  "validation": {
+    "required": "Campo obrigatório",
+    "positiveNumber": "Deve ser um número positivo",
+    "invalidFile": "Arquivo inválido"
+  },
+  "languages": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}

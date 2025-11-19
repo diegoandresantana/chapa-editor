@@ -1,0 +1,52 @@
+{
+  "app": {
+    "title": "Editor de Diseño 2D",
+    "language": "Idioma"
+  },
+  "sidebar": {
+    "title": "Piezas Disponibles",
+    "noPieces": "No hay piezas disponibles",
+    "quantity": "Cant: {{count}}"
+  },
+  "form": {
+    "addPiece": "Agregar Pieza",
+    "name": "Nombre",
+    "width": "Ancho",
+    "height": "Alto",
+    "quantity": "Cantidad",
+    "add": "Agregar",
+    "namePlaceholder": "Nombre de la pieza",
+    "widthPlaceholder": "Ancho en mm",
+    "heightPlaceholder": "Alto en mm",
+    "quantityPlaceholder": "Cantidad"
+  },
+  "upload": {
+    "title": "Importar Piezas CSV",
+    "selectFile": "Seleccionar Archivo CSV",
+    "import": "Importar",
+    "noFile": "Ningún archivo seleccionado",
+    "success": "¡{{count}} piezas importadas exitosamente!",
+    "error": "Error al procesar archivo CSV",
+    "format": "Formato esperado: nombre,ancho,alto,cantidad"
+  },
+  "editor": {
+    "title": "Área de Edición",
+    "dropHere": "Arrastra las piezas aquí para asignar",
+    "collision": "¡Colisión detectada!",
+    "outOfBounds": "¡Fuera de los límites de la chapa!",
+    "allocated": "Piezas Asignadas: {{count}}",
+    "remove": "Eliminar"
+  },
+  "validation": {
+    "required": "Campo obligatorio",
+    "positiveNumber": "Debe ser un número positivo",
+    "invalidFile": "Archivo inválido"
+  },
+  "languages": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}

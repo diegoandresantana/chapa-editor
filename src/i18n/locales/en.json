@@ -1,0 +1,52 @@
+{
+  "app": {
+    "title": "2D Layout Editor",
+    "language": "Language"
+  },
+  "sidebar": {
+    "title": "Available Pieces",
+    "noPieces": "No pieces available",
+    "quantity": "Qty: {{count}}"
+  },
+  "form": {
+    "addPiece": "Add Piece",
+    "name": "Name",
+    "width": "Width",
+    "height": "Height",
+    "quantity": "Quantity",
+    "add": "Add",
+    "namePlaceholder": "Piece name",
+    "widthPlaceholder": "Width in mm",
+    "heightPlaceholder": "Height in mm",
+    "quantityPlaceholder": "Quantity"
+  },
+  "upload": {
+    "title": "Import CSV Pieces",
+    "selectFile": "Select CSV File",
+    "import": "Import",
+    "noFile": "No file selected",
+    "success": "{{count}} pieces imported successfully!",
+    "error": "Error processing CSV file",
+    "format": "Expected format: name,width,height,quantity"
+  },
+  "editor": {
+    "title": "Editing Area",
+    "dropHere": "Drag pieces here to allocate",
+    "collision": "Collision detected!",
+    "outOfBounds": "Out of sheet bounds!",
+    "allocated": "Allocated Pieces: {{count}}",
+    "remove": "Remove"
+  },
+  "validation": {
+    "required": "Required field",
+    "positiveNumber": "Must be a positive number",
+    "invalidFile": "Invalid file"
+  },
+  "languages": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}
